@@ -1,0 +1,19 @@
+{
+  "name": "ushamart-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@neondatabase/serverless": "^0.6.0",
+    "drizzle-orm": "^0.29.0",
+    "ws": "^8.15.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
